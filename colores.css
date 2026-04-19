@@ -1,0 +1,628 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #020617;
+    color: white;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #0ff;
+    }
+
+    50% {
+        text-shadow: 0 0 20px #0ff;
+    }
+
+    100% {
+        text-shadow: 0 0 5px #0ff;
+    }
+}
+
+
+.pilares span:nth-child(1) {
+    color: red;
+    animation: glow 2s infinite;
+}
+
+.pilares span:nth-child(2) {
+    color: orange;
+    animation: glow 2s infinite;
+}
+
+.pilares span:nth-child(3) {
+    color: yellow;
+    animation: glow 2s infinite;
+}
+
+.pilares span:nth-child(4) {
+    color: lime;
+    animation: glow 2s infinite;
+}
+
+.pilares span:nth-child(5) {
+    color: cyan;
+    animation: glow 2s infinite;
+}
+
+.pilares span:nth-child(6) {
+    color: blue;
+    animation: glow 2s infinite;
+}
+
+.pilares span:nth-child(7) {
+    color: purple;
+    animation: glow 2s infinite;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.ini {
+    color: rgb(0, 0, 0);
+    background-color: rgb(245, 7, 7);
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px red, 0 0 20px red, 0 0 40px red;
+    transition: 0.3s;
+}
+
+.ini:hover {
+    background-color: rgb(255, 81, 0);
+    box-shadow: 0 0 10px rgb(255, 111, 0), 0 0 20px rgb(255, 102, 0), 0 0 40px rgb(255, 111, 0);
+
+}
+
+.tal {
+    color: rgb(0, 0, 0);
+    background-color: rgb(7, 19, 245);
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(68, 0, 255), 0 0 20px rgb(8, 0, 255), 0 0 40px rgb(17, 0, 255);
+    transition: 0.3s;
+}
+
+.tal:hover {
+    background-color: rgb(1, 137, 234);
+    box-shadow: 0 0 10px rgb(0, 204, 255), 0 0 20px rgb(0, 153, 255), 0 0 40px rgb(0, 153, 255);
+
+}
+
+.dep {
+    color: rgb(0, 0, 0);
+    background-color: rgb(217, 245, 7);
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(251, 255, 0), 0 0 20px rgb(255, 242, 0), 0 0 40px rgb(251, 255, 0);
+    transition: 0.3s;
+}
+
+.dep:hover {
+    background-color: rgb(234, 236, 131);
+    box-shadow: 0 0 10px rgb(239, 234, 87), 0 0 20px rgb(238, 252, 111), 0 0 40px rgb(221, 226, 81);
+
+}
+
+.ubi {
+    color: rgb(0, 0, 0);
+    background-color: rgb(67, 245, 7);
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(40, 228, 3), 0 0 20px rgb(25, 247, 0), 0 0 40px rgb(26, 255, 0);
+    transition: 0.3s;
+}
+
+.ubi:hover {
+    background-color: rgb(83, 225, 102);
+    box-shadow: 0 0 10px rgb(27, 230, 129), 0 0 20px rgb(48, 245, 123), 0 0 40px rgb(69, 255, 181);
+
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border: 2px solid #f0f;
+    color: #f0f;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #f0f;
+    color: black;
+    box-shadow: 0 0 20px #f0f;
+}
+
+.btn1 {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(249, 249, 249);
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn1:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+    box-shadow: 0 0 20px rgb(255, 253, 255);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card1 {
+    background: #020617;
+    border: 1px solid rgb(255, 0, 0);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+    transition: 0.3s;
+}
+
+.card1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(255, 4, 4);
+}
+
+.card2 {
+    background: #020617;
+    border: 1px solid rgb(0, 13, 255);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(17, 0, 255);
+    transition: 0.3s;
+}
+
+.card2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(0, 8, 255);
+}
+
+.card3 {
+    background: #020617;
+    border: 1px solid rgb(242, 255, 0);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(246, 255, 0);
+    transition: 0.3s;
+}
+
+.card3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(221, 255, 0);
+}
+
+.card4 {
+    background: #020617;
+    border: 1px solid rgb(43, 255, 0);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(13, 255, 0);
+    transition: 0.3s;
+}
+
+.card4:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(0, 255, 0);
+}
+
+.card5 {
+    background: #020617;
+    border: 1px solid rgb(255, 0, 0);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+    transition: 0.3s;
+}
+
+.card5:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(255, 0, 0);
+}
+
+.card6 {
+    background: #020617;
+    border: 1px solid rgb(30, 0, 255);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(43, 0, 255);
+    transition: 0.3s;
+}
+
+.card6:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(43, 0, 255);
+}
+
+.card7 {
+    background: #020617;
+    border: 1px solid rgb(251, 255, 0);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(229, 255, 0);
+    transition: 0.3s;
+}
+
+.card7:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(225, 255, 0);
+}
+
+.card8 {
+    background: #020617;
+    border: 1px solid rgb(43, 255, 0);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(72, 255, 0);
+    transition: 0.3s;
+}
+
+.card8:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(47, 255, 0);
+}
+
+.card9 {
+    background: #020617;
+    border: 1px solid rgb(255, 0, 0);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+    transition: 0.3s;
+}
+
+.card9:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(255, 0, 0);
+}
+
+.card10 {
+    background: #020617;
+    border: 1px solid rgb(0, 4, 255);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(0, 8, 255);
+    transition: 0.3s;
+}
+
+.card10:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(30, 0, 255);
+}
+
+.card11 {
+    background: #020617;
+    border: 1px solid rgb(217, 255, 0);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(255, 255, 0);
+    transition: 0.3s;
+}
+
+.card11:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(225, 255, 0);
+}
+
+.card12 {
+    background: #020617;
+    border: 1px solid rgb(60, 255, 0);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(47, 255, 0);
+    transition: 0.3s;
+}
+
+.card12:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(0, 255, 4);
+}
+
+.card13 {
+    background: #020617;
+    border: 1px solid rgb(255, 0, 0);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+    transition: 0.3s;
+}
+
+.card13:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(255, 0, 0);
+}
+
+.card14 {
+    background: #020617;
+    border: 1px solid rgb(0, 17, 255);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(30, 0, 255);
+    transition: 0.3s;
+}
+
+.card14:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(0, 4, 255);
+}
+
+.card15 {
+    background: #020617;
+    border: 1px solid rgb(234, 255, 0);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(246, 255, 0);
+    transition: 0.3s;
+}
+
+.card15:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(255, 242, 0);
+}
+
+.card16 {
+    background: #020617;
+    border: 1px solid rgb(34, 255, 0);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(81, 255, 0);
+    transition: 0.3s;
+}
+
+.card16:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(26, 255, 0);
+}
+
+.card17 {
+    background: #020617;
+    border: 1px solid rgb(255, 0, 0);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+    transition: 0.3s;
+}
+
+.card17:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(255, 0, 0);
+}
+
+.card18 {
+    background: #020617;
+    border: 1px solid rgb(255, 0, 0);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(255, 30, 0);
+    transition: 0.3s;
+}
+
+.card18:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(255, 0, 0);
+}
+
+.card19 {
+    background: #020617;
+    border: 1px solid rgb(0, 38, 255);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(0, 17, 255);
+    transition: 0.3s;
+}
+
+.card19:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(0, 4, 255);
+}
+
+.card20 {
+    background: #020617;
+    border: 1px solid rgb(238, 255, 0);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(255, 242, 0);
+    transition: 0.3s;
+}
+
+.card20:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(255, 238, 0);
+}
+
+.card21 {
+    background: #020617;
+    border: 1px solid rgb(60, 255, 0);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(43, 255, 0);
+    transition: 0.3s;
+}
+
+.card21:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(47, 255, 0);
+}
+
+.card22 {
+    background: #020617;
+    border: 1px solid rgb(255, 0, 0);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+    transition: 0.3s;
+}
+
+.card22:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(255, 0, 0);
+}
+
+.card23 {
+    background: #020617;
+    border: 1px solid rgb(0, 51, 255);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(13, 0, 255);
+    transition: 0.3s;
+}
+
+.card23:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(17, 0, 255);
+}
+
+.card24 {
+    background: #020617;
+    border: 1px solid rgb(229, 255, 0);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(234, 255, 0);
+    transition: 0.3s;
+}
+
+.card24:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(208, 255, 0);
+}
+
+.card25 {
+    background: #020617;
+    border: 1px solid rgb(21, 255, 0);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(26, 255, 0);
+    transition: 0.3s;
+}
+
+.card25:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(47, 255, 0);
+}
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+@media (max-width: 600px) {
+    .card {
+        width: 90%;
+    }
+}
+
+
+.imagen {
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.creador {
+    color: rgba(55, 54, 55, 0.582);
+}
