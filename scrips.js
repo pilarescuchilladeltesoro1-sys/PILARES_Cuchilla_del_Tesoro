@@ -1,4 +1,4 @@
-function mostrarImagen(card) {
+function mostrarImagen(card) { 
 
   let img = card.querySelector(".imagen");
 
@@ -15,3 +15,6 @@ function mostrarImagen(card) {
     img.style.display = "block";
   }
 }
+
+
+// Funcion que permite desplegar la imagen al tocar el boton, NO TOCAR 

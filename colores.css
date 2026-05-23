@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #020617;
+    color: white;
+}
+
+/*colores del cuerpo de la web*/
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px rgb(255, 255, 255);
+    }
+
+    50% {
+        text-shadow: 0 0 20px rgb(255, 255, 255);
+    }
+
+    100% {
+        text-shadow: 0 0 5px rgb(255, 255, 255);
+    }
+}
+
+/*animacion blanca que tiene las letras PILARES*/
+
+
+.pilares span:nth-child(1) {
+    color: rgb(122, 18, 48);
+    animation: glow 2s infinite;
+}
+
+/*letra de la palabra Pilares*/
+
+.pilares span:nth-child(2) {
+    color: rgb(196, 145, 58);
+    animation: glow 2s infinite;
+}
+
+.pilares span:nth-child(3) {
+    color: rgb(166, 28, 69);
+    animation: glow 2s infinite;
+}
+
+.pilares span:nth-child(4) {
+    color: rgb(122, 18, 48);
+    animation: glow 2s infinite;
+}
+
+.pilares span:nth-child(5) {
+    color: rgb(196, 145, 58);
+    animation: glow 2s infinite;
+}
+
+.pilares span:nth-child(6) {
+    color: rgb(166, 28, 69);
+    animation: glow 2s infinite;
+}
+
+.pilares span:nth-child(7) {
+    color: rgb(122, 18, 48);
+    animation: glow 2s infinite;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+}
+
+/*atributos del menu de navegacion los cuales cumplen la funcion de que esten separados, medidas entre si, centrados etc */
+
+nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+/*atributos de los links del menu de navegacion los cuales cumplen la funcion de que esten separados, medidas entre si, centrados etc */
+
+
+.ini {
+    color: rgb(0, 0, 0);
+    background-color: rgb(122, 18, 48);
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(122, 18, 48), 0 0 20px rgb(122, 18, 48), 0 0 40px rgb(122, 18, 48);
+    transition: 0.3s;
+}
+
+/**/
+
+.ini:hover {
+    background-color: rgb(196, 145, 58);
+    box-shadow: 0 0 10px rgb(196, 145, 58), 0 0 20px rgb(196, 145, 58), 0 0 40px rgb(196, 145, 58);
+
+}
+
+.tal {
+    color: rgb(0, 0, 0);
+    background-color: rgb(196, 145, 58);
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(196, 145, 58), 0 0 20px rgb(196, 145, 58), 0 0 40px rgb(196, 145, 58);
+    transition: 0.3s;
+}
+
+.tal:hover {
+    background-color: rgb(166, 28, 69);
+    box-shadow: 0 0 10px rgb(166, 28, 69), 0 0 20px rgb(166, 28, 69), 0 0 40px rgb(166, 28, 69);
+
+}
+
+.dep {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 0, 76);
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(255, 0, 76), 0 0 20px rgb(255, 0, 76), 0 0 40px rgb(255, 0, 76);
+    transition: 0.3s;
+}
+
+.dep:hover {
+    background-color: rgb(122, 18, 48);
+    box-shadow: 0 0 10px rgb(122, 18, 48), 0 0 20px rgb(122, 18, 48), 0 0 40px rgb(122, 18, 48);
+
+}
+
+.ubi {
+    color: rgb(0, 0, 0);
+    background-color: rgb(122, 18, 48);
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(122, 18, 48), 0 0 20px rgb(122, 18, 48), 0 0 40px rgb(122, 18, 48);
+    transition: 0.3s;
+}
+
+.ubi:hover {
+    background-color: rgb(196, 145, 58);
+    box-shadow: 0 0 10px rgb(196, 145, 58), 0 0 20px rgb(196, 145, 58), 0 0 40px rgb(196, 145, 58);
+
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border: 2px solid #f0f;
+    color: #f0f;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #f0f;
+    color: black;
+    box-shadow: 0 0 20px #f0f;
+}
+
+.btn1 {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(249, 249, 249);
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn1:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+    box-shadow: 0 0 20px rgb(255, 253, 255);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card1 {
+    background: #020617;
+    border: 1px solid rgb(122, 18, 48);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(122, 18, 48);
+    transition: 0.3s;
+}
+
+.card1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(196, 145, 58);
+    border: 1px solid rgb(196, 145, 58);
+}
+
+.card2 {
+    background: #020617;
+    border: 1px solid rgb(196, 145, 58);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(196, 145, 58);
+    transition: 0.3s;
+}
+
+.card2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(255, 0, 76);
+    border: 1px solid rgb(255, 0, 76);
+
+}
+
+.card3 {
+    background: #020617;
+    border: 1px solid rgb(254, 0, 76);
+    margin: 15px;
+    padding: 20px;
+    width: 260px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgb(255, 0, 76);
+    transition: 0.3s;
+}
+
+.card3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgb(122, 18, 48);
+    border: 1px solid rgb(122, 18, 48);
+}
+
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+@media (max-width: 600px) {
+    .card {
+        width: 90%;
+    }
+}
+
+
+.imagen {
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.creador {
+    color: rgba(55, 54, 55, 0.582);
+}
